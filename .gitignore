@@ -1,0 +1,39 @@
+# ====================================================================
+# Repo-wide ignores for both exp1 (React) and exp2 (Tomcat servlet)
+# ====================================================================
+
+# ---- exp1 (React / Vite) ----
+exp1/**/node_modules/
+exp1/**/dist/
+exp1/**/dist-ssr/
+exp1/**/.vite/
+exp1/**/*.local
+exp1/**/npm-debug.log*
+exp1/**/yarn-debug.log*
+exp1/**/yarn-error.log*
+
+# ---- exp2 (Tomcat servlet) ----
+exp2/tomcat/
+exp2/target/
+exp2/build/
+exp2/out/
+exp2/**/*.war
+exp2/**/*.class
+exp2/WebContent/WEB-INF/lib/*.jar
+
+# ---- IDEs / OS ----
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+.settings/
+.classpath
+.project
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs ----
+*.log
+logs/
+

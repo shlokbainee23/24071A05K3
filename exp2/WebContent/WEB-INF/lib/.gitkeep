@@ -1,0 +1,2 @@
+Place servlet-api.jar (Jakarta Servlet 6.0+) here when building outside Maven.
+This folder is intentionally kept empty in version control.

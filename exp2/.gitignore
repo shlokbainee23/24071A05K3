@@ -1,0 +1,41 @@
+# ====================================================================
+# ClickKart exp2 - .gitignore
+# Anything listed here is auto-generated or downloaded by setup.ps1
+# and should NOT be committed to git.
+# ====================================================================
+
+# Locally-installed Tomcat (downloaded by setup.ps1)
+tomcat/
+
+# Build outputs
+target/
+build/
+out/
+*.war
+*.class
+
+# Servlet API jar (downloaded by setup.ps1)
+WebContent/WEB-INF/lib/*.jar
+
+# Maven (if anyone uses Maven instead of setup.ps1)
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.eclipse/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+logs/
